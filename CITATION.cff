@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+authors:
+  - name: "Natasha Zink"
+title: "Axiom: Foundational toolkit for human-centric computational systems"
+doi: 10.5281/zenodo.21113583
+date-released: 2026-07-01
+url: "https://github.com/nzink777/Axiom"
+license: "public-domain"
