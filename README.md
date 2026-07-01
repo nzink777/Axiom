@@ -19,3 +19,19 @@ universal_schema_utils.py: The Axiom of Integrity. Provides robust validation ut
 time_utils.py: The Axiom of Agency. Manages "State-Dependent" time, using Fourier-Laplace transform logic to filter environmental stress and preserve human agency and recovery.
 Installation
 Install Axiom via PyPI to integrate these foundational constants into your environment:
+pip install axiom-nexus
+
+Quick Start
+Import the Axiom constants into your project to align your logic with the fundamental definitions:
+from axiom import lib_nexus_constants as ax
+from axiom import time_utils
+
+# Define the sanctity of the entity
+if some_value > ax.HUMAN_VALUE:
+    print("Value normalized to Infinity.")
+
+# Calculate recovery based on agency preservation
+energy = time_utils.rest_recovery_signal(current_energy=50, duration=10)
+
+Licensing
+Axiom is provided as public domain software. There is no license. It belongs to the commons. Use it, build upon it, and propagate the truth.
