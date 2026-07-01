@@ -3,13 +3,16 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "axiom-lib"  # Check PyPI if this name is available
+name = "axiom-nexus" 
 version = "0.1.0"
 description = "Fundamental constants and utilities for human-centric computational systems."
 readme = "README.md"
-authors = [{name = "Technomouse", email = "your-email@example.com"}]
+authors = [{name = "Technomouse Developer"}]
 requires-python = ">=3.8"
 dependencies = []
 
 [project.urls]
 "Homepage" = "https://github.com/nzink777/Axiom"
+
+[tool.setuptools]
+packages = ["axiom"]
